@@ -28,7 +28,7 @@ def generate_mosaic(light_field: np.ndarray) -> None:
                     top=1  ,
                     wspace=0,
                     hspace=0)
-    plt.savefig("./../../output/1_2.png", bbox_inches='tight', dpi=1500)
+    plt.savefig("./../../output/1_2.png", bbox_inches='tight', dpi=2000)
     #plt.show()
 
 def generate_mosaic_AFI(AFI: np.ndarray) -> None:
